@@ -1,0 +1,11 @@
+{
+  // 继承
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  // 告知TS哪些文件需要编译
+  "include": ["vite.config.*", "vitest.config.*", "cypress.config.*", "playwright.config.*"],
+  // 编译选项
+  "compilerOptions": {
+    "composite": true,
+    "types": ["node"]
+  }
+}
