@@ -1,6 +1,6 @@
 <template>
   <div class="bar-echart">
-    <baseEcharts :option="option" />
+    <baseEcharts :option="option" /> 
   </div>
 </template>
 
